@@ -1,5 +1,4 @@
 const config = require('./config')
-const feedPlugin = require('./gatsby-config.plugins.feed')
 
 module.exports = [
     'gatsby-plugin-react-helmet',
@@ -52,12 +51,11 @@ module.exports = [
     },
     {
       resolve: 'gatsby-plugin-i18n',
-      options: {        
+      options: {
         langKeyDefault: config.defaultLanguage,
         useLangKeyLayout: false
       }
     },
-    feedPlugin,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`
 ]

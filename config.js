@@ -17,7 +17,6 @@ module.exports = {
   social: {
     github: 'https://github.com/srdjanrakic',
     linkedin: '',
-    rss: '/rss.xml'
   },
   tags: {
     angular: {
