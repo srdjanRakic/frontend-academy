@@ -68,7 +68,7 @@ const Header = () => {
             <Link to={Utils.resolvePageUrl(Config.pages.tag)}>Tags</Link>
           </li>
           <li>
-            <Link to={Utils.resolvePageUrl(Config.pages.about)}>About</Link>
+            <Link to={Utils.resolvePageUrl(Config.pages.about)}>Mentors</Link>
           </li>
         </ul>
       </div>
